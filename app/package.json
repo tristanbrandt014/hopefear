@@ -1,0 +1,28 @@
+{
+  "name": "hopefear-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@storybook/cli": "^3.2.10",
+    "flow-bin": "^0.56.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.14",
+    "redux": "^3.7.2",
+    "styled-components": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.11",
+    "@storybook/addon-links": "^3.2.10",
+    "@storybook/react": "^3.2.11"
+  }
+}
